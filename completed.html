@@ -1,6 +1,11 @@
 <html>
 <head>
-    <title>Thank you</for title>
+    <title>Thank you</title>
+</head>
+<body>
+
+
+</body>
     <script>
 function getGet(name) {
     var s = window.location.search;
@@ -9,7 +14,7 @@ function getGet(name) {
 }
 function haveagoodday(){ 
 let px = getGet('px');
- document.write('<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id='+px+'&ev=Purchase&noscript=1"/>');
+ document.write('<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id='+px+'&ev=purchase&noscript=1"/>');
 }
 function haveaniceday(){
     window.location.replace(getGet('url'));
@@ -17,11 +22,6 @@ function haveaniceday(){
 
 }
 haveagoodday();
-setTimeout(haveaniceday,5000);
+setTimeout(haveaniceday,4000);
 </script>
-</head>
-<body>
-
-
-</body>
 </html>
